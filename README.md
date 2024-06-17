@@ -13,3 +13,5 @@ Seta para direita avança 5 segundos.
 Seta para esquerda volta 5 segundos.
 Seta para cima aumenta volume.
 Seta para baixo abaixa volume.
+Vírgula para avançar um frame.
+Ponto para retroceder um frame.
