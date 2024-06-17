@@ -31,4 +31,10 @@ document.onkeydown = function(e){
                     player.play();
                 }
     }
+	if(key===190) /*Ponto(.)*/{
+                player.seek(Math.min(player.getDuration(), player.getCurrentTime() + 1/25));
+    }
+	if(key===188) /*Vírgula(,)*/{
+                player.seek(Math.min(player.getDuration(), player.getCurrentTime() - 1/25));
+    }
 }
